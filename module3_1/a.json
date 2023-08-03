@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Olivia",
+    "dateOfBirth": "1990-01-01",
+    "genre": [{ "0": "pop" }, { "1": "rock" }, { "2": "jazz" }]
+  },
+  {
+    "name": "John",
+    "dateOfBirth": "1985-05-15",
+    "genre": [{ "1": "rock" }, { "2": "jazz" }]
+  },
+  {
+    "name": "Michael",
+    "dateOfBirth": "1978-11-30",
+    "genre": [{ "0": "pop" }, { "2": "jazz" }]
+  },
+  {
+    "name": "Emily",
+    "dateOfBirth": "1995-03-20",
+    "genre": [{ "0": "pop" }, { "1": "rock" }]
+  },
+  {
+    "name": "David",
+    "dateOfBirth": "1982-07-10",
+    "genre": [{ "0": "pop" }]
+  },
+  {
+    "name": "Sarah",
+    "dateOfBirth": "1992-09-25",
+    "genre": [{ "1": "rock" }]
+  },
+  {
+    "name": "Robert",
+    "dateOfBirth": "1987-12-05",
+    "genre": [{ "2": "jazz" }]
+  },
+  {
+    "name": "Ava",
+    "dateOfBirth": "1998-04-12",
+    "genre": [{ "0": "pop" }]
+  },
+  {
+    "name": "William",
+    "dateOfBirth": "1975-06-08",
+    "genre": [{ "1": "rock" }, { "2": "jazz" }]
+  },
+  {
+    "name": "Sophia",
+    "dateOfBirth": "1993-10-18",
+    "genre": [{ "0": "pop" }, { "1": "rock" }, { "2": "jazz" }]
+  }
+]

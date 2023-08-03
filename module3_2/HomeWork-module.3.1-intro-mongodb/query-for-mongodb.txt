@@ -1,0 +1,202 @@
+// make a database
+
+use music
+
+// make 3 collection Artists, PopularSong, Songs
+
+db.createCollection("Artists")
+db.createCollection("PopularSong")
+db.createCollection("Songs")
+
+// insertMany Artis Query
+db.artists.insertMany([
+  {
+    "name": "Olivia",
+    "dateOfBirth": "1990-01-01",
+    "genre": [
+      { "0": "pop" },
+      { "1": "rock" },
+      { "2": "jazz" }
+    ]
+  },
+  {
+    "name": "John",
+    "dateOfBirth": "1985-05-15",
+    "genre": [
+      { "1": "rock" },
+      { "2": "jazz" }
+    ]
+  },
+  {
+    "name": "Michael",
+    "dateOfBirth": "1978-11-30",
+    "genre": [
+      { "0": "pop" },
+      { "2": "jazz" }
+    ]
+  },
+  {
+    "name": "Emily",
+    "dateOfBirth": "1995-03-20",
+    "genre": [
+      { "0": "pop" },
+      { "1": "rock" }
+    ]
+  },
+  {
+    "name": "David",
+    "dateOfBirth": "1982-07-10",
+    "genre": [
+      { "0": "pop" }
+    ]
+  },
+  {
+    "name": "Sarah",
+    "dateOfBirth": "1992-09-25",
+    "genre": [
+      { "1": "rock" }
+    ]
+  },
+  {
+    "name": "Robert",
+    "dateOfBirth": "1987-12-05",
+    "genre": [
+      { "2": "jazz" }
+    ]
+  },
+  {
+    "name": "Ava",
+    "dateOfBirth": "1998-04-12",
+    "genre": [
+      { "0": "pop" }
+    ]
+  },
+  {
+    "name": "William",
+    "dateOfBirth": "1975-06-08",
+    "genre": [
+      { "1": "rock" },
+      { "2": "jazz" }
+    ]
+  },
+  {
+    "name": "Sophia",
+    "dateOfBirth": "1993-10-18",
+    "genre": [
+      { "0": "pop" },
+      { "1": "rock" },
+      { "2": "jazz" }
+    ]
+  }
+])
+
+//insertMany PopularSong
+
+db.PopularSongs.insertMany([
+  {
+    "title": "Imagine",
+    "playedTime": "3:30",
+    "periodTime": "Classic"
+  },
+  {
+    "title": "My Heart Will Go On",
+    "playedTime": "4:15",
+    "periodTime": "Romance"
+  },
+  {
+    "title": "Shape of You",
+    "playedTime": "5:02",
+    "periodTime": "Modern"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "playedTime": "2:58",
+    "periodTime": "Classic"
+  },
+  {
+    "title": "I Will Always Love You",
+    "playedTime": "4:45",
+    "periodTime": "Romance"
+  },
+  {
+    "title": "Uptown Funk",
+    "playedTime": "3:20",
+    "periodTime": "Modern"
+  },
+  {
+    "title": "Yesterday",
+    "playedTime": "3:50",
+    "periodTime": "Classic"
+  },
+  {
+    "title": "Perfect",
+    "playedTime": "4:10",
+    "periodTime": "Romance"
+  },
+  {
+    "title": "Rolling in the Deep",
+    "playedTime": "3:15",
+    "periodTime": "Modern"
+  },
+  {
+    "title": "Hotel California",
+    "playedTime": "4:30",
+    "periodTime": "Classic"
+  }
+])
+
+
+//insertMany Songs
+
+db.Songs.insertMany([
+  {
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "album": "Divide"
+  },
+  {
+    "title": "Someone Like You",
+    "artist": "Adele",
+    "album": "21"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera"
+  },
+  {
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "album": "Imagine"
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "album": "Hotel California"
+  },
+  {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "album": "Thriller"
+  },
+  {
+    "title": "Rolling in the Deep",
+    "artist": "Adele",
+    "album": "21"
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "album": "A Night at the Opera"
+  },
+  {
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "album": "The Beatles (White Album)"
+  },
+  {
+    "title": "Like a Rolling Stone",
+    "artist": "Bob Dylan",
+    "album": "Highway 61 Revisited"
+  }
+])
